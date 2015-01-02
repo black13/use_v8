@@ -15,6 +15,7 @@
 	
 7. 	Build the shared libraries. 
 	python build\gyp_v8 -Dtarget_arch=ia32 -Dcomponent=shared_library
+	cd to build and run:
 	msbuild /p:Configuration=Release /p:Platform=Win32 all.sln	
 	
 	
